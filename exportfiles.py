@@ -5,7 +5,7 @@ dest21 = "/content/Colab-ESRGAN/results2"
 files = os.listdir(source1)
 import shutil
 import numpy as np
-amount_files = 17
+amount_files = len(os.listdir('/content/Colab-ESRGAN/results'))
 
 files_counter = 0
 for f in files:
